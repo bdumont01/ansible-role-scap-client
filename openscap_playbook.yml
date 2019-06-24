@@ -11,6 +11,6 @@
     satellite_username`: admin
     satellite_password`: r3dh4t1!
     capsule_server`: ip-10-0-0-12.us-east-2.compute.internal
-    policy_name`: 'test_policy'
+    policy_name`: test_policy
   roles:
         - openscap_role
