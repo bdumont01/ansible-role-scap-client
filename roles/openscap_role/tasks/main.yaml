@@ -18,7 +18,7 @@
   register: policies
 
 - debug:
-  var: policies
+    var: policies
 
 
 - name: Build policy {{ policy_name }} parameters
