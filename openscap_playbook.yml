@@ -1,0 +1,16 @@
+---
+- name: openscap client
+  hosts: <<host list>>
+  remote_user: ec2-user
+  gather_facts: true
+  become: yes
+  become_user: root
+  become_method: sudo
+  vars:
+    satellite_server: satellite.example.com
+    satellite_username`: admin
+    satellite_password`: r3dh4t1!
+    capsule_server`: capsule.example.com
+    policy_name`: 'rhel7-pci'
+  roles:
+        - openscap_role
