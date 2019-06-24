@@ -17,6 +17,10 @@
     body_format: json
   register: policies
 
+- debug:
+  var: policies
+
+
 - name: Build policy {{ policy_name }} parameters
   set_fact:
     policy: "{{ item }}"
