@@ -1,6 +1,6 @@
 ---
 - name: openscap client
-  hosts: ip-10-0-1-237.us-east-2.compute.internal
+  hosts: ip-10-0-2-184.us-east-2.compute.internal
   remote_user: ec2-user
   gather_facts: true
   become: yes
